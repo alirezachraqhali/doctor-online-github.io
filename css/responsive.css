@@ -1,0 +1,109 @@
+/* tablet responsive : */
+@media only screen and (max-width: 1024px) {
+    :root {
+        --container-padding: 20pt !important;
+    }
+    body:has(.menu.mobile-show){
+        overflow: hidden;
+    }
+    body:has(.menu.mobile-show) .card {
+        opacity: 0 !important;
+    }
+    
+    .header .btn-menu {
+        display: flex !important;
+    }
+    .header .menu {
+        opacity: 0;
+        visibility: hidden;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        padding: 13pt var(--container-padding);
+        box-shadow: 0 0 5pt limegreen;
+        border-radius: 5pt;
+        z-index: 1000;
+        display: flex !important;
+        flex-direction: column;
+        overflow: auto;
+        transition: 250ms ease;
+    }
+    .header .menu ul {
+        display: flex;
+        flex-direction: column;
+        flex-flow: column;
+        flex: 1;
+        gap: 5px;
+        margin: 0 var(--container-padding);
+        margin-top: 10px;
+        width: 90%;
+        overflow: auto !important;
+    }
+    .header .menu li , .header .menu li a {
+        width: 100%;
+    }
+    .header .menu.mobile-show {
+        opacity: 1;
+        visibility: visible;
+        background: white !important;
+    }
+    .header .menu .btn-close {
+        border-radius: 100%;
+    }
+    .header .menu.mobile-show .btn-close {
+        display: flex;
+    }
+    .header .form-box {
+        display: none !important;
+    }
+    .header .menu .form-box {
+        display: flex !important;
+        justify-content: center;
+    }
+    .header .menu .form-box input {
+        flex: 1;
+        font-size: var(--text-large);
+    }
+    
+    a , button {
+        cursor: default;
+    }
+}
+/* mobile responsive : */
+@media only screen and (max-width: 560px) {
+    :root {
+        --container-padding: 15px !important;
+        --header-height: 90px !important;
+    }
+    
+    .card-box .card.full-screen .list.list-1d {
+        gap: calc(100% - (340pt)) !important;
+    }
+    .card-box .card.full-screen .list.list-1d .item {
+        margin: 10pt 0;
+    }
+    .form-box {
+        display: flex;
+        width: 100%;
+        gap: 5px;
+    }
+    .form-box table {
+        width: 100%;
+    }
+    .form-box table tr td {
+        display: table;
+        width: 100%;
+    }
+    .form-box table input , .form-box table select , .form-box table textarea  {
+        width: 100%;
+    }
+    .header .btn-user span {
+        display: none;
+        width: var(--menu-btn-size) !important;
+        min-width: var(--menu-btn-size) !important;
+        max-width: var(--menu-btn-size) !important;
+    }
+
+}
