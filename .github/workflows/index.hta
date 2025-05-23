@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+    <title>دکتر آنلاین - خانه</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="fonts/fontawesome/font-awesome.min.css" />
+</head>
+<body>
+    <div class="header">
+        <button type="button" class="btn btn-menu fa fa-list" title="منوی سایت"></button>
+        <a href="#"><img src="assets/logo.png" alt="لوگوی سایت" class="logo" /></a>
+        <div class="menu">
+            <a href="#" class="fa fa-close btn-close"></a>
+            <ul>
+                <li><a href="#">خانه</a></li>
+                <li><a href="#">آموزش ها</a></li>
+                <li><a href="#">مقالات</a></li>
+                <li><a href="#">درباره</a></li>
+                <li><a href="#">پرتابل</a></li>
+            </ul>
+        </div>
+        <div style="display:flex;gap:5px;">
+            <form action="" method="get" class="form-box">
+                <input type="search" name="s" id="txt-search" placeholder="جستجو کنید ..." autocomplete="off" />
+                <button type="submit" class="btn fa fa-search"></button>
+            </form>
+            
+            <button type="button" class="btn btn-user fa fa-user"><span>حساب کاربری</span></button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card-box">
+            <div class="card">
+                لورم ایپسوم یک متن جالب برای شما نمایش می دهد !
+            </div>
+            <div class="card">
+                <div class="legend">
+                    <h3>لیست دکتر ها به صورت یک بعدی :</h3>
+                    <a href="#" title="بیشتر ببینید"><span class="title">بیشتر</span> <i class="fa fa-angle-left"></i></a>
+                </div>
+                <div class="list list-1d">
+                    <div class="item">
+                        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyWmrI1VxYd_eEh2tvfG7l_YoFzgKp1EHhJmjgRf9j7phQI1t5WqvRshbtqUuCJ_Dc8dg&usqp=CAU" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="data:image/jpeg;base64,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" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyWmrI1VxYd_eEh2tvfG7l_YoFzgKp1EHhJmjgRf9j7phQI1t5WqvRshbtqUuCJ_Dc8dg&usqp=CAU" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="legend">
+                    <h3>لیست دکتر ها به صورت دو بعدی :</h3>
+                </div>
+                <div class="list">
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/logo.png" alt="نمایش عکس آیتم" /></a>
+                        <h4>عنوان لیست</h4>
+                        <span>نمایش جزئیات لیست</span>
+                        <a href="#" class="btn btn-info">نمایش اطلاعات</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box-center">
+            <fieldset class="form-box">
+                <legend><h3>فرم ثبت نام</h3></legend>
+                <form action="" method="post">
+                    <table>
+                        <tr>
+                            <td><label for="txt-flname">نام و نام خانوادگی : </label></td>
+                            <td><input type="text" name="flname" id="txt-flname" maxlength="50" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="txt-email">پست الکترونیکی / ایمیل :</label></td>
+                            <td><input type="email" name="email" id="txt-email" maxlength="255" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="txt-password">گذرواژه :</label></td>
+                            <td><input type="password" name="password" id="txt-password" maxlength="32" autocomplete="off" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="txt-re-password">تکرار گذرواژه :</label></td>
+                            <td><input type="password" name="password" id="txt-re-password" maxlength="32" autocomplete="off" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="txt-role">متخصص :</label></td>
+                            <td>
+                                <select name="role" id="txt-role">
+                                    <option>ارتوپدی</option>
+                                    <option>فیزیوتراپی</option>
+                                    <option>عمومی</option>
+                                    <option>گوش ، حلق و بینی</option>
+                                    <option>مغز و اعصاب</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="txt-bio">بیوگرافی :</label></td>
+                            <td><textarea name="bio" id="txt-bio" maxlength="1500"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button type="submit" class="btn btn-sucess">ثبت کنید</button><button>این برای تست است
+                                    !</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </fieldset>
+        </div>
+    </div>
+    <div class="footer">
+        <h3>&copy; کلیه محتوای این سایت متعلق به <a href="https://github.com/serkancode">سرکان کد</a> می باشد !</h3>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
